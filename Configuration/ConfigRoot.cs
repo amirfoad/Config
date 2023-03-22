@@ -21,7 +21,7 @@ namespace Configuration
             Version = version;
         }
 
-        public bool AddConfig(Config config)
+        public bool Add(Config config)
         {
             try
             {
@@ -37,7 +37,7 @@ namespace Configuration
             }
         }
 
-        public bool AddConfig<T>(Config<T> config)
+        public bool Add<T>(Config<T> config)
         {
             try
             {
@@ -60,7 +60,7 @@ namespace Configuration
             }
         }
 
-        public Config<T> GetConfig<T>(string key)
+        public Config<T> Get<T>(string key)
         {
             if (Configs.Any(t => t.Key == key))
             {
@@ -77,7 +77,7 @@ namespace Configuration
             return null;
         }
 
-        public Config GetConfig(string key)
+        public Config Get(string key)
         {
             if (Configs.Any(t => t.Key == key))
             {

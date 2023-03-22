@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configuration", "Configuration\Configuration.csproj", "{6609ACC0-C700-48E5-BFDE-383CCCDF2791}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configuration.LiteDb", "Configuration.LiteDb\Configuration.LiteDb.csproj", "{5EBB3836-8F72-4DAA-A236-7BC15A3C72C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +17,15 @@ Global
 		{6609ACC0-C700-48E5-BFDE-383CCCDF2791}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6609ACC0-C700-48E5-BFDE-383CCCDF2791}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6609ACC0-C700-48E5-BFDE-383CCCDF2791}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EBB3836-8F72-4DAA-A236-7BC15A3C72C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EBB3836-8F72-4DAA-A236-7BC15A3C72C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EBB3836-8F72-4DAA-A236-7BC15A3C72C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EBB3836-8F72-4DAA-A236-7BC15A3C72C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3068F172-3E2A-4EA3-AFA5-CE278E061008}
 	EndGlobalSection
 EndGlobal
